@@ -6,7 +6,7 @@ import HogList from './HogList';
 import Filter from './Filter';
 
 function App() {
-	const [showGreased, setShowGreased] = useState(false)
+  const [showGreased, setShowGreased] = useState(false)
 	const [sortBy, setSortBy] = useState("name")
 
 	const hogsToDisplay = hogs
